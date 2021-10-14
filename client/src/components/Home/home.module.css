@@ -1,0 +1,177 @@
+.gif{
+    width: 10vw;
+
+}
+/* .medida{
+    position: absolute;
+    top:7%;
+    width: 1520px;
+    height: 910px;
+} */
+.bigDiv{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    overflow: auto;
+    width: 80vw;
+    height: 100%;
+    background-size: 1550px 905px;
+    background-repeat: no-repeat;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: auto;
+
+    width: 100%;
+}
+.header{
+    position: relative;
+    height: 20vh;
+    left: 2%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.searchBar{
+    width: 20vw;
+    height: 1.5vw;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-size: 0.53vw;
+    text-align: center;
+}
+
+.dropDownBtn{
+    overflow: hidden;
+    display: flex;
+
+}
+.filters{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+
+
+.filtersButtons{
+    width: 5vw;
+    height: 1.5vw;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6vw;
+    
+}
+.dropDownFilters{
+    display: none;
+    position: absolute;
+    background-color: #000000a4;
+    color: rgb(187, 187, 187);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 2.8vh;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.filterTitle{
+    margin-bottom: 0.6vh;
+}
+
+.dropDownFiltersBtn{
+    display: flex;
+    align-items: center;
+    font-size: 0.5vw;
+    height: 1.5vh;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0.2vh;
+    margin-bottom: 0.4vh;
+    margin-left: 1.5vw;
+}
+.dropDownFiltersBtn:hover {
+    background-color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+.dropDownBtn:hover .dropDownFilters {
+    display: block;
+}
+.deleteBtn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2vw;
+    height:1.2vw;
+    border-radius: 2px;
+    top: 0.2vw;
+    left: 77.8%;
+    z-index: 2;
+}
+.eeveeFilters{
+    display: none;
+    position: absolute;
+    background-color: #000000a4;
+    color: rgb(187, 187, 187);
+    width: 7vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 2.8vh;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.dropDownBtn:hover .eeveeFilters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.eevees{
+    width: 2vw;
+    height: 2vw;
+    margin: 2px 2px 2px 2px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.eevees:hover {
+    background-color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+.pagination{
+    position: relative;
+    left: 50%;
+    top: -4.3%;
+    transform: translate(-50%);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.pagButton{
+    border: none;
+    height: 1.2vw;
+    width: 1.4vw;
+    background-color: white;
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagButton:hover{
+    cursor: pointer;
+}
+
+/* style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', width:'70vw', overflow: 'auto'}} */

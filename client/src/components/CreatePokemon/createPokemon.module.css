@@ -1,0 +1,175 @@
+.pokedex{
+    position: absolute;
+    top: 7vh;
+    left: 11.3vw;
+    width: 77.02vw;
+    height: 47.3vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:black 1px solid;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    width: 38%;
+    height: 40%;
+    position: inherit;
+    left: 6.1%;
+    top: 27%;
+    font-size: 0.8vw;
+
+}
+
+
+
+.numberedInput{
+    width: 3.5vw;
+    height: 1.4vw;
+    font-size: 1.1vw;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7vw;
+}
+
+
+.stringInput{
+    height: 1.4vw;
+    width: 12.5vw;
+    font-size: 1vw;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7vw;
+}
+
+.statsPair{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.statsSingle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9.5vw;
+}
+
+.statsAlone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.description{
+
+    position:relative;
+    left: 61.3%;
+    top: 67.3%;
+    border: solid black 1px;
+    width: 37%;
+    height: 14%;
+    display: flex;
+
+
+}
+.descriptionInput{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7vw;
+    position: absolute;
+    left: 61.002%;
+    top: 66.9%;
+    width: 37.8%;
+    height: 15.3%;
+    resize: none;
+    border-radius: 5.1px;
+    box-sizing: border-box;
+}
+.stringInput:focus{
+    border: 2px solid #555;
+}
+.numberedInput:focus{
+    border: 2px solid #555;
+}
+.descriptionInput:focus{
+    border: 5px solid #555;
+}
+
+.types {
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    left: 64.6%;
+    top: 27.8%;
+    width: 26.2vw;
+    height: 10.2vw;
+
+}
+
+.typeButton{
+    width: 4vw;
+    height: 1.5vw;
+    border: black 1.5px solid;
+    border-radius: 5px;
+
+}
+.typeButton:active {
+    transform: translateY(1px);
+  }
+
+.resetButton{
+    position: absolute;
+    left: 65%;
+    top: 92.1%;
+    width: 11.78vw;
+    height: 2.2vw;
+    border-radius: 4px;
+}
+
+.createButton {
+    position: absolute;
+    left: 84%;
+    top: 92.1%;
+    width: 11.45vw;
+    height: 2.2vw;
+    border-radius: 4px;
+}
+
+.pokeImg{
+    position: absolute;
+    top: 86.5%;
+    left: 17.8%;
+    width: 8.15vw;
+    height: 3.68vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+.eveeGif1 {
+    position: absolute;
+    background-size: contain;
+    height: 93%;
+    width: 11.6vw;
+    top: 7vh;
+    z-index: 1;
+
+}
+.eveeGif2 {
+    position: absolute;
+    background-size: contain;
+    height: 93%;
+    width: 11.6vw;
+    top: 7vh;
+    left: 88.4%;
+    z-index: 1;
+
+}

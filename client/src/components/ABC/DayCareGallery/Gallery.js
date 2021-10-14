@@ -1,0 +1,82 @@
+let sprites = {
+    1: {
+        angry:"https://projectpokemon.org/home/uploads/monthly_2020_04/1628158393_large.RTDXPortraitAngryLeft.png.0a48711194707aff9f45f6910ea84991.png",
+        happy:"https://projectpokemon.org/home/uploads/monthly_2020_04/494254989_large.RTDXPortraitGladLeft.png.af674b1b685f9a5b8d2e489e47c16e02.png",
+        gif:"https://projectpokemon.org/home/uploads/monthly_2017_11/large.Animated.gif.662eca1ab4bbe56f3e2366854dfb1394.gif",
+        gifShiny:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a063be09165a_large.AnimatedShiny.gif.1631c7039df2fd24647e71de1b9ceb8b.gif",
+    },
+    2: {
+        angry:"https://projectpokemon.org/home/uploads/monthly_2020_04/867482347_large.RTDXPortraitPainedLeft.png.33eaad5432918f6fa76a92f67352c3d7.png",
+        happy:"https://projectpokemon.org/home/uploads/monthly_2020_04/1226020105_large.RTDXPortraitHappyLeft.png.889aa280f6ee29430122e22047ecdb9e.png",
+        gif:"https://projectpokemon.org/home/uploads/monthly_2017_11/large.Animated.gif.ea91d691f5fa0c21bc722799e26a74a2.gif",
+        gifShiny: "https://projectpokemon.org/home/uploads/monthly_2017_11/5a063b7c9de05_large.AnimatedShiny.gif.4f2bf4970ea9ecae96b50b1a85e09ad6.gif",
+    },
+    3: {
+        angry:"https://projectpokemon.org/home/uploads/monthly_2020_04/922814835_large.RTDXPortraitSpecial02.png.b0502b661e95b0156fe36f7d309a9037.png",
+        happy:"https://projectpokemon.org/home/uploads/monthly_2020_04/31996448_large.RTDXPortraitHappy.png.4849ad42659aa63b8d354128d4c6e4a0.png",
+        gif:"https://projectpokemon.org/home/uploads/monthly_2017_11/large.Animated.gif.45138fa08d79783bf0be338efd19f8ee.gif",
+        gifShiny:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a063a9d73be3_large.AnimatedShinyf.gif.441837e97c43f1b966a540038f4a0e0e.gif",
+        gifMega:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a063a93b7f4f_large.Animatedmega.gif.5d8bcd5d4892f35f1ab22d2a65bca39b.gif",
+        gifMegaShiny:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a063aa697fb2_large.AnimatedShinymega.gif.f8202934028e14b9418df331236710fc.gif"
+    },
+    4: {
+        angry:"https://projectpokemon.org/home/uploads/monthly_2020_04/870496946_large.RTDXPortraitDecisive.png.fefa56c9a1c0cece36b10821be91609d.png",
+        happy:"https://projectpokemon.org/home/uploads/monthly_2020_04/1345544066_large.RTDXPortraitGlad.png.9d7938e3cbc548f68cded32c6831d408.png",
+        gif:"https://projectpokemon.org/home/uploads/monthly_2017_11/large.Animated.gif.bea8d0f0b309fc2de27f6b7d0417aafd.gif",
+        gifShiny:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a0639d088a79_large.AnimatedShiny.gif.d1673fac54506e7056b07ab0592623f1.gif",
+    },
+    5: {
+        angry:"https://projectpokemon.org/home/uploads/monthly_2020_04/348238201_large.RTDXPortraitPained.png.e4188c324d7bc162f69371a69655ab8f.png",
+        happy:"https://projectpokemon.org/home/uploads/monthly_2020_04/2020342117_large.RTDXPortraitHappy.png.de5072abbec9ced34dc74ddaf431449e.png",
+        gif:"https://projectpokemon.org/home/uploads/monthly_2017_11/large.Animated.gif.a0c281ed059a3f1cb8c1446ad16801b3.gif",
+        gifShiny:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a063968dcbc3_large.AnimatedShiny.gif.5bc6ebacff453638ec3fe3786c596149.gif",
+    },
+    6: {
+        angry:"https://projectpokemon.org/home/uploads/monthly_2020_04/513903342_large.RTDXPortraitSpecial03.png.9e833c96c6b5dd66374f3571d6de7b95.png",
+        happy:"https://projectpokemon.org/home/uploads/monthly_2020_04/288907886_large.RTDXPortraitHappy.png.478acc014f9afbd7ce32def83cdbae79.png",
+        gif:"https://projectpokemon.org/home/uploads/monthly_2017_11/large.Animated.gif.1f7ab523f73940817d75ae62923a0390.gif",
+        gifShiny:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a0638c3c3c74_large.AnimatedShiny.gif.3c0310141ee1f1672dd3a5fd2817dce3.gif",
+        gifMega:"https://projectpokemon.org/home/uploads/monthly_2017_11/5a06389a1c324_large.Animatedmegax.gif.9d8a5591d6c7b6020a1dc94653bfa1b8.gif",
+        gifMegaShiny:"",
+        gifMega2:"",
+        gifMegaShiny2:"",
+    },
+    7: {
+        angry:"",
+        happy:"",
+        gif:"",
+        gifShiny:"",
+    },
+    8: {
+        angry:"",
+        happy:"",
+        gif:"",
+        gifShiny:"",
+    },
+    9: {
+        angry:"",
+        happy:"",
+        gif:"",
+        gifShiny:"",
+        gifMega:"",
+        gifMegaShiny:"",
+    },
+    pikachu: {
+        angry:"",
+        happy:"",
+        gif:"",
+        gifShiny:"",
+    },
+    raichu: {
+        angry:"",
+        happy:"",
+        gif:"",
+        gifShiny:"",
+    },
+    ditto: {
+        angry:"",
+        happy:"",
+        gif:"",
+        gifShiny:"",
+    },
+}
